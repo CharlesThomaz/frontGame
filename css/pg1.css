@@ -48,8 +48,9 @@ nav {
 }
 nav ul {
     margin: 0;
+    margin-left: 20px;
     padding: 0;
-background: linear-gradient(to bottom, #df1d03b9, #3cfd15);
+    background: linear-gradient(to bottom, #df1d03b9, #3cfd15);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     font-family: var(--fonte-pixel);
