@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(/img/wp3669760-gif-pc-wallpaper.gif);
+    background-repeat: no-repeat;
+    background-size: auto;
+    
+    background-position: right;    
+    
+
+
+    
+}
+
+@font-face {
+  font-family: "PixelGame";
+  src: url("/font/PixelGameFont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+h1{
+    color: #01f80e9a;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 20px;
+    font-family: var(--fonte-pixel);
+    text-shadow: 2px 2px 4px rgba(253, 76, 45, 0.952);
+
+}
+
+:root {
+  --titulo: "Poetsen One", sans-serif;
+    --fonte-pixel: "PixelGame", sans-serif;
+
+}
+
+nav {
+
+    
+    width: 200px;
+    height: 300px;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+background: linear-gradient(to bottom, #df1d03b9, #3cfd15);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-family: var(--fonte-pixel);
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    display: flex;  
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;       
+    box-sizing: border-box;
+    
+
+    list-style-type: none;
+    padding: 0;
+}
+nav ul li, a {
+    margin: 10px 0;
+    width: 100%;
+    color: #000;
+    text-decoration: none;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
